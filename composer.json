@@ -1,0 +1,12 @@
+{
+    "name": "appkit/health",
+    "type": "library",
+    "description": "Health monitoring utilities for the AppKit framework",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AppKit\\Health\\": "src/"
+        }
+    }
+}
