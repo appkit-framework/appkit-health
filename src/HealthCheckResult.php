@@ -23,9 +23,6 @@ class HealthCheckResult {
 
     private function parseRecur($data) {
         if(is_array($data)) {
-            if(empty($data))
-                return true;
-
             foreach($data as $k => $v)
                 $data[$k] = $this -> parseRecur($v);
 
