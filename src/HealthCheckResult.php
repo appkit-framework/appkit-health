@@ -2,8 +2,6 @@
 
 namespace AppKit\Health;
 
-use AppKit\Health\HealthIndicatorInterface;
-
 class HealthCheckResult {
     private $status;
     private $details;
